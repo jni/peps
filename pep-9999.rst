@@ -20,7 +20,7 @@ Rationale
 
 Back in the early days of Python, the interpreter came with a large set of
 useful modules. This was often refrained to as "batteries included"
-philosophy and was one of the corner stones to Python's success story.
+philosophy and was one of the cornerstones to Python's success story.
 Users didn't have to figure out how to download and install separate
 packages in order to write a simple web server or parse email.
 
@@ -187,7 +187,7 @@ colorsys
 
 The `colorsys <https://docs.python.org/3/library/colorsys.html>`_ module
 defines color conversion functions between RGB, YIQ, HSL, and HSV coordinate
-systems. The Pillow library provides much faster conversation between
+systems. The Pillow library provides much faster conversion between
 color systems.
 
 Module type
@@ -222,7 +222,7 @@ imghdr
 The `imghdr <https://docs.python.org/3/library/imghdr.html>`_ module is a
 simple tool to guess the image file format from the first 32 bytes
 of a file or buffer. It supports only a limited amount of formats and
-neither returns resolution nor color depth.
+returns neither resolution nor color depth.
 
 Module type
   pure Python
@@ -347,7 +347,7 @@ cgi
 The `cgi <https://docs.python.org/3/library/cgi.html>`_ module is a support
 module for Common Gateway Interface (CGI) scripts. CGI is deemed as
 inefficient because every incoming request is handled in a new process. PEP
-206 considers the module as *designed poorly and are now near-impossible
+206 considers the module as *designed poorly and […] now near-impossible
 to fix*.
 
 Several people proposed to either keep the cgi module for features like
@@ -393,7 +393,7 @@ crypt
 The `crypt <https://docs.python.org/3/library/crypt.html>`_ module implements
 password hashing based on ``crypt(3)`` function from ``libcrypt`` or
 ``libxcrypt`` on Unix-like platform. The algorithms are mostly old, of poor
-quality and insecure. Users are discouraged to use them.
+quality and insecure. Users are discouraged from using them.
 
 Module type
   C extension + Python module
@@ -409,7 +409,7 @@ macpath
 
 The `macpath <https://docs.python.org/3/library/macpath.html>`_ module
 provides Mac OS 9 implementation of os.path routines. Mac OS 9 is no longer
-supported
+supported.
 
 Module type
   pure Python
@@ -465,8 +465,8 @@ fileinput
 
 The `fileinput <https://docs.python.org/3/library/fileinput.html>`_ module
 implements a helpers to iterate over a list of files from ``sys.argv``. The
-module predates the optparser and argparser module. The same functionality
-can be implemented with the argparser module.
+module predates the optparse and argparse modules. The same functionality
+can be implemented with the argparse module.
 
 Module type
   pure Python
